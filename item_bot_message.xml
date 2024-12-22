@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:gravity="start">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewBotIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/robert_icon"
+        android:layout_margin="8dp" />
+
+<!--
+    <ImageView
+        android:id="@+id/imageViewBotIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/robert_icon"
+        android:src="@drawable/robert_icon"
+        android:scaleType="fitCenter"
+        android:background="@drawable/circular_background" />
+-->
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_bot"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:text="@string/bot_message"
+        android:textSize="16sp" />
+
+</LinearLayout>
