@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             return "Real";
         } else if (userLastMessage.contains("you should")) {
             return "Skill Issue";
-        } else if (userLastMessage.contains("kill yourself")) {
+        } else if (userLastMessage.contains("L")) {
             return "L";
         } else if (userLastMessage.contains("witowy")) {
             return "Witowwwy my shoulder hurts";
